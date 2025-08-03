@@ -17,7 +17,8 @@ add_executable(talker src/publisher_node.cpp)
 add_executable(listener src/subscriber_node.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
 ament_target_dependencies(listener rclcpp std_msgs)
-target_compile_features(talker listener PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(talker PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(listener PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 install(TARGETS talker listener
   DESTINATION lib/${PROJECT_NAME})
