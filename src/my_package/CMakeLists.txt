@@ -14,10 +14,12 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
 add_executable(talker src/publisher_node.cpp)
+add_executable(listener src/subscriber_node.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
-target_compile_features(talker PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(listener rclcpp std_msgs)
+target_compile_features(talker listener PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
-install(TARGETS talker
+install(TARGETS talker listener
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
