@@ -42,7 +42,7 @@ public:
     : QApplication(argc, argv)
   {
     rclcpp::init(argc, argv);
-    nh_ = rclcpp::Node::make_shared("MyTurtlesim");
+    nh_ = rclcpp::Node::make_shared("turtlesim");
   }
 
   ~TurtleApp()
