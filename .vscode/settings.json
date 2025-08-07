@@ -55,5 +55,42 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "python.autoComplete.extraPaths": [
+    "/home/sqlxx/projects/ros2_study/install/turtlesim/lib/python3.12/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/py_pubsub/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/more_interfaces/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/launch_testing_examples/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_service/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_client/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_executors/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/action_tutorials_interfaces/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/sqlxx/projects/ros2_study/install/turtlesim/lib/python3.12/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/py_pubsub/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/more_interfaces/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/launch_testing_examples/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_service/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_client/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/examples_rclpy_executors/lib/python3.10/site-packages",
+    "/home/sqlxx/projects/ros2_study/install/action_tutorials_interfaces/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "cmake.sourceDirectory": "/home/sqlxx/projects/ros2_study/src/cpp_srvcli"
 }
