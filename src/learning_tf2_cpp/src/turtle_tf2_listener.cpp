@@ -42,7 +42,9 @@ private:
                 geometry_msgs::msg::TransformStamped t;
 
                 try {
-                    t = tf_buffer_->lookupTransform(toFrameRel, fromFrameRel, tf2::TimePointZero);
+                    rclcpp::Time now = this->get_clock()->now();
+                    rclcpp::Time when = this->get_clock()->now() - rclcpp::Duration(5, 0);
+                    t = tf_buffer_->lookupTransform(toFrameRel, now, fromFrameRel, when, "world", 50ms);
                 } catch(const tf2::TransformException &ex) {
                     RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", fromFrameRel.c_str(), toFrameRel.c_str(), ex.what());
                     return;
